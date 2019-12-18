@@ -42,3 +42,5 @@ Route::prefix('Utilisateur')->group(function () {
     Route::delete('/supprimerUtilisateur', 'UsersController@supprimerUtilisateur')->middleware('cors');
 
 });
+
+//TEST
